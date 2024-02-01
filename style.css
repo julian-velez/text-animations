@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+
+.comic-title {
+    animation: shadow-animation 2s infinite;
+    font-size: 250px;
+    
+  }
+  
+  @keyframes shadow-animation {
+    0% {
+      text-shadow: 2px 2px #f00, 4px 4px #fff;
+    }
+    50% {
+      text-shadow: 4px 4px #fff, 2px 2px #f00;
+    }
+    100% {
+      text-shadow: 2px 2px #f00, 4px 4px #fff;
+    }
+  }
+  
